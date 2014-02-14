@@ -5,5 +5,10 @@ $(document).ready(function(){
 		$('#b1').tap(function(){
 			navigator.notification.beep(1);
 		});//Cierre de tap b1
+		
+		$('#b2').tap(function(){
+			navigator.notification.vibrate(500);
+		});//Cierre de tap b2
+		
 	}); //Cierre de deviceready
 });// Cierre de ready
